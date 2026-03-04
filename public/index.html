@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mSect7 App Idea Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+    <div class="gradient-bg"></div>
+    <header class="hero">
+        <div class="hero__eyebrow">mSect7 Studio</div>
+        <h1>Instantly Spark Your Next Brilliant App Idea</h1>
+        <p>
+            Describe the type of app you want to build. Our AI product partner will craft a highly detailed, market-ready
+            concept in seconds.
+        </p>
+        <div class="hero__badges">
+            <span>⚡ GPT-4o Mini</span>
+            <span>🎯 Product Positioning</span>
+            <span>💡 Monetization Insights</span>
+        </div>
+    </header>
+
+    <main class="layout">
+        <section class="card prompt">
+            <div class="card__header">
+                <div>
+                    <p class="eyebrow">Prompt Playground</p>
+                    <h2>Describe your vision</h2>
+                </div>
+                <button id="inspireBtn" type="button">Shuffle Inspiration</button>
+            </div>
+            <form id="ideaForm">
+                <label for="customPrompt">What kind of app are you dreaming about?</label>
+                <textarea id="customPrompt" name="customPrompt" rows="6" placeholder="e.g. A wellness companion for remote teams that blends mood tracking with playful rituals..."></textarea>
+                <div class="form__footer">
+                    <p class="tiny">Tip: mention audience, platforms, tone, or tech you love.</p>
+                    <button id="generateBtn" type="submit">
+                        <span class="btn-label">Generate Masterplan</span>
+                        <span class="btn-loader" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </form>
+        </section>
+
+        <section class="card result" id="resultCard">
+            <p class="eyebrow">Idea Blueprint</p>
+            <h2>Your concept appears here</h2>
+            <p class="muted">Craft something magical above to unlock a fully structured plan.</p>
+            <div id="result" aria-live="polite"></div>
+        </section>
+    </main>
+
+    <section class="pillars">
+        <article>
+            <h3>Deep Differentiation</h3>
+            <p>Every idea highlights a unique angle so you stand out in crowded markets.</p>
+        </article>
+        <article>
+            <h3>Monetization Ready</h3>
+            <p>Clear revenue concepts from subscriptions to ecosystem plays.</p>
+        </article>
+        <article>
+            <h3>Launch Confidently</h3>
+            <p>Get stack suggestions and core features mapped before you wireframe.</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>Built with ❤️ by the mSect7 team • Dream boldly, ship faster.</p>
+    </footer>
+
+    <script src="/script.js" type="module"></script>
+</body>
+
+</html>
+

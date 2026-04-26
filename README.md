@@ -15,13 +15,13 @@ AppIdeaGenerator is a website using chatGPT and Node.js for generating the propo
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/LouLi322/AppIdeaGenerator.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-projecta
+  cd AppIdeaGenerator
 ```
 
 Install dependencies
